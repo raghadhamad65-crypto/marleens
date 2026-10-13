@@ -1,1 +1,434 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Marleen's Oil </title>
+<link rel="icon" type="image/png" href="images/logo.png">
+<meta name="description" content="Marleen's Oil - زيوت طبيعية فاخرة للبشرة والشعر، مستخلصة بعناية من أنقى المصادر." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500;600;700&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+<meta property="og:image" content="https://marleens-oil.netlify.app/images/about.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- ===== Luxury Navbar ===== -->
+<header class="navbar" id="navbar">
+
+  <div class="container navbar__inner">
+
+    <!-- Logo -->
+    <a href="#home" class="navbar__logo">
+      <img
+        src="images/logo.png"
+        alt="Marleen's Oil"
+        class="navbar__logo-img"
+      >
+
+      <span class="navbar__logo-text">
+      </span>
+    </a>
+
+    <!-- Links -->
+    <nav class="navbar__links">
+
+      <a href="#home" class="active">الرئيسية🌿</a>
+
+      <a href="#about">قصتنا</a>
+
+    </nav>
+
+
+  </div>
+
+</header>
+<!-- ===== Hero — Cinematic ===== -->
+<section class="hero" id="home">
+
+  <div class="hero__media">
+    <!--
+      فيديو المنتج الحقيقي:
+      ضعي ملف الفيديو في assets/videos/hero-product.mp4
+      وضعي صورة احتياطية (poster) في images/hero-poster.jpg
+      الفيديو يعمل تلقائياً (autoplay) بدون صوت (muted) ويتكرر (loop) بدون أي أزرار تحكم.
+      إلى أن تضيفي الفيديو، ستظهر صورة الـ poster فقط كخلفية.
+    -->
+    <video
+      class="hero__video"
+      autoplay
+      muted
+      loop
+      playsinline
+      poster="images/hero-postar.jpeg">
+      <source src="assets/videos/hero-product.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero__vignette" aria-hidden="true"></div>
+    <div class="hero__gradient" aria-hidden="true"></div>
+
+    <div class="hero__particles" aria-hidden="true">
+      <span class="hero__particle hero__particle--1"></span>
+      <span class="hero__particle hero__particle--2"></span>
+      <span class="hero__particle hero__particle--3"></span>
+    </div>
+  </div>
+<div class="hero__content" dir="rtl">
+  <p class="hero__brand">MARLEEN&rsquo;S OIL</p>
+
+  <h1 class="hero__tagline">
+    عناية من الطبيعة<br>
+<span>    جمال يدوم
+</span>  </h1>
+<a href="#" class="hero__cta" id="shopNowBtn">
+  <span>اطلب الآن</span>
+  <span class="hero__cta-arrow">←</span>
+</a>
+</div>
+
+
+  <div class="hero__scroll-cue" aria-hidden="true"><span></span></div>
+</section>
+
+<!-- ===== About / Our Story ===== -->
+<section class="about" id="about">
+  <div class="about__decor">
+  <span class="olive-leaf leaf-1">🌿</span>
+  <span class="olive-leaf leaf-2">🌿</span>
+  <span class="olive-leaf leaf-3">🌿</span>
+
+  <span class="seed seed-1">•</span>
+  <span class="seed seed-2">•</span>
+  <span class="seed seed-3">•</span>
+  <span class="seed seed-4">•</span>
+</div>
+  <div class="container about__inner">
+
+    <div class="about__media">
+      <div class="about__image-frame">
+        <img
+          src="images/about.png"
+          alt="صاحبة Marleen's Oil"
+        />
+      </div>
+
+      <div class="about__badge">
+        <span>Marleen's</span>
+        <small>Natural Care</small>
+      </div>
+    </div>
+
+    <div class="about__text">
+
+      <span class="about__eyebrow">قصتنا</span>
+
+      <h2 class="about__title">
+        الجمال يبدأ من
+        <span>الطبيعة</span>
+      </h2>
+
+      <p class="about__intro">
+        في Marleen's Oil نصنع تجربة عناية مستوحاة من الطبيعة،
+        ونختار مكوناتنا بعناية لنقدم لك زيوتًا تجمع بين
+        الجودة، البساطة، والأصالة.
+      </p>
+
+      <p class="about__description">
+        من اختيار المكونات وحتى وصول المنتج إليك، نهتم بكل تفصيلة
+        لنمنحك منتجًا مصنوعًا بحب وعناية، لأننا نؤمن أن العناية
+        الحقيقية تبدأ من الأشياء الطبيعية.
+      </p>
+
+      <div class="about__features">
+
+        <div class="about__feature">
+          <span class="about__feature-icon">✦</span>
+          <div>
+            <strong>مكونات طبيعية</strong>
+            <p>مختارة بعناية</p>
+          </div>
+        </div>
+
+        <div class="about__feature">
+          <span class="about__feature-icon">✦</span>
+          <div>
+            <strong>عناية موثوقة</strong>
+            <p>في كل تفاصيل المنتج</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="about__signature">
+        <span></span>
+        <p>صُنع بعناية من Marleen's Oil</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- ===== Footer ===== -->
+<footer class="footer">
+  <div class="footer__decor">
+  <span class="footer-leaf one"></span>
+  <span class="footer-leaf two"></span>
+  <span class="footer-leaf three"></span>
+
+  <span class="footer-seed one"></span>
+  <span class="footer-seed two"></span>
+  <span class="footer-seed three"></span>
+  <span class="footer-seed four"></span>
+</div>
+  <div class="container_footer__inner">
+    <div class="footer__brand">
+      <img src="images/logo.png" alt="Marleen's Oil" class="footer__logo" />
+      <p>زيوت طبيعية فاخرة للعناية الشعر.</p>
+    </div>
+
+    <div class="footer__col">
+      <h4>روابط سريعة</h4>
+      <a href="#home">الرئيسية</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>تواصلي معنا</h4>
+      <a href="https://www.instagram.com/marleenn.alhii2/"
+  target="_blank"
+  rel="noopener noreferrer">
+Instagram</a>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <p>© 2026 Marleen's Oil. جميع الحقوق محفوظة.</p>
+  </div>
+</footer>
+<!-- ===== Quick Order ===== -->
+<div class="quick-order-overlay" id="quickOrderOverlay">
+
+  <div class="quick-order-box">
+
+    <button type="button" id="quickOrderClose" class="quick-order-close">
+      ×
+    </button>
+<div class="quick-order-heading">
+  <span>MARLEEN'S OIL</span>
+  <h2>اطلبي  الآن</h2>
+  <p>زيت Marleen's Oil</p>
+<div class="quick-order-price-row">
+
+  <img
+    id="quickOrderProductImage"
+    src="images/زيت.png"
+    alt="منتج Marleen's Oil"
+    class="quick-order-product-thumb"
+  >
+
+  <div class="quick-order-price">
+    $40
+  </div>
+
+</div>
+</div>
+    <form id="quickOrderForm">
+
+      <label>
+        الاسم
+        <input type="text" id="customerName" required placeholder="اكتبي اسمك">
+      </label>
+
+      <label>
+        رقم الهاتف
+        <input type="tel" id="customerPhone" required placeholder="07XXXXXXXX">
+      </label>
+
+      <label>
+        موقع التوصيل
+        <input type="text" id="customerAddress" required placeholder="المدينة / المنطقة">
+      </label>
+
+      <label>
+        الكمية
+        <input type="number" id="customerQty" min="1" value="1" required>
+      </label>
+
+      <label>
+        ملاحظات
+        <textarea id="customerNotes" placeholder="أي ملاحظات؟"></textarea>
+      </label>
+
+      <button type="submit" class="quick-order-submit">
+        اطلب الآن  
+      </button>
+
+    </form>
+
+  </div>
+</div>
+<script src="js/script.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const shopBtn = document.getElementById("shopNowBtn");
+
+  if (!shopBtn) return;
+
+  shopBtn.addEventListener("click", function (e) {
+
+    e.preventDefault();
+
+    const rect = shopBtn.getBoundingClientRect();
+
+    const particles = [
+
+      // 🌿 أوراق
+      { type: "leaf",  x: -55, y: -85,  r: -35 },
+      { type: "leaf",  x: 50,  y: -105, r: 35 },
+      { type: "leaf",  x: -85, y: -35,  r: -60 },
+      { type: "leaf",  x: 90,  y: -45,  r: 55 },
+      { type: "leaf",  x: -25, y: -125, r: -15 },
+
+      // 🫒 زيتون
+      { type: "olive", x: -35, y: -110, r: -20 },
+      { type: "olive", x: 65,  y: -75,  r: 30 },
+      { type: "olive", x: -75, y: -75,  r: -35 },
+
+      // 🌰 بذور
+      { type: "seed", x: -105, y: -15,  r: 20 },
+      { type: "seed", x: 105,  y: -20,  r: -25 },
+      { type: "seed", x: -75,  y: -115, r: 40 },
+      { type: "seed", x: 90,   y: -120, r: -40 },
+      { type: "seed", x: 20,   y: -140, r: 15 }
+
+    ];
+
+    particles.forEach((particle, index) => {
+
+      const element = document.createElement("span");
+
+      element.className =
+        "nature-particle " + particle.type;
+
+      element.style.left =
+        (rect.left + rect.width / 2) + "px";
+
+      element.style.top =
+        (rect.top + rect.height / 2) + "px";
+
+      element.style.setProperty(
+        "--x",
+        particle.x + "px"
+      );
+
+      element.style.setProperty(
+        "--y",
+        particle.y + "px"
+      );
+
+      element.style.setProperty(
+        "--rotate",
+        particle.r + "deg"
+      );
+
+      element.style.animationDelay =
+        (index * 35) + "ms";
+
+      document.body.appendChild(element);
+
+      setTimeout(() => {
+        element.remove();
+      }, 1200);
+
+    });
+
+  });
+
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  // كل روابط الموقع
+  const allLinks = document.querySelectorAll("a");
+
+  allLinks.forEach(link => {
+
+    link.addEventListener("click", function () {
+
+      const rect = link.getBoundingClientRect();
+
+      const particles = [
+
+        // 🌿 أوراق
+        { type: "leaf",  x: -55, y: -85,  r: -35 },
+        { type: "leaf",  x: 50,  y: -105, r: 35 },
+        { type: "leaf",  x: -85, y: -35,  r: -60 },
+        { type: "leaf",  x: 90,  y: -45,  r: 55 },
+
+        // 🫒 زيتون
+        { type: "olive", x: -35, y: -110, r: -20 },
+        { type: "olive", x: 65,  y: -75,  r: 30 },
+        { type: "olive", x: -75, y: -70,  r: -35 },
+
+        // 🌰 بذور
+        { type: "seed", x: -105, y: -15,  r: 20 },
+        { type: "seed", x: 105,  y: -20,  r: -25 },
+        { type: "seed", x: -75,  y: -115, r: 40 },
+        { type: "seed", x: 90,   y: -120, r: -40 },
+        { type: "seed", x: 20,   y: -140, r: 15 }
+
+      ];
+
+      particles.forEach((particle, index) => {
+
+        const element = document.createElement("span");
+
+        element.className =
+          "nature-particle " + particle.type;
+
+        element.style.left =
+          (rect.left + rect.width / 2) + "px";
+
+        element.style.top =
+          (rect.top + rect.height / 2) + "px";
+
+        element.style.setProperty(
+          "--x",
+          particle.x + "px"
+        );
+
+        element.style.setProperty(
+          "--y",
+          particle.y + "px"
+        );
+
+        element.style.setProperty(
+          "--rotate",
+          particle.r + "deg"
+        );
+
+        element.style.animationDelay =
+          (index * 35) + "ms";
+
+        document.body.appendChild(element);
+
+        setTimeout(() => {
+          element.remove();
+        }, 1200);
+
+      });
+
+    });
+
+  });
+
+});
+</script>
+
+</body>
+</html>
 
